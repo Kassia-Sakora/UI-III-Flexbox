@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 .bigbox {
   	width:80%;
 	margin:0 auto;
+	border: 1px dotted black;
 }
 
 h1 {
@@ -100,7 +101,7 @@ nav a {
 }
 
 .navigation {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .logo {
@@ -109,8 +110,7 @@ nav a {
 
 .container {
 	display: flex;
-	margin: 1.5%;
-	padding: 1.5%;
+	margin: 5%;
 	width: 100%;
 }
 
@@ -172,4 +172,9 @@ p {
 .copyright {
 	text-align: center;
 
+}
+
+.services-header-img {
+	width: 100%;
+	margin: 3% auto;
 }
