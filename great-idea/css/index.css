@@ -114,6 +114,13 @@ nav a {
 	width: 100%;
 }
 
+.containservice {
+	display: flex;
+	flex-wrap: wrap;
+	width: 42%;
+	margin: 20px;
+}
+
 .phrase {
 	text-align: center;
 	padding: 10px;
@@ -135,13 +142,19 @@ nav a {
 }
 
 p {
-	font-size: 23px;
+	font-size: 20px;
 }
 
 .border {
 	display: flex;
 	flex-direction: row;
-	/* border: 1px dotted black; */
+	border: 1px dotted black;
+}
+
+.boxes {
+	display: flex;
+	background-color: lightgray;
+	border: 1px solid black;
 }
 
 .topcontent {
