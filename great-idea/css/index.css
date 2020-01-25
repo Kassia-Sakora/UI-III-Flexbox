@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 .bigbox {
   	width:80%;
 	margin:0 auto;
-	border: 1px dotted black;
+	/* border: 1px dotted black; */
 }
 
 h1 {
@@ -117,7 +117,7 @@ nav a {
 .containservice {
 	display: flex;
 	flex-wrap: wrap;
-	width: 42%;
+	justify-content: space-around;
 	margin: 20px;
 }
 
@@ -146,14 +146,19 @@ p {
 }
 
 .border {
-	display: flex;
-	flex-direction: row;
-	border: 1px dotted black;
+	/* border: 1px dotted black; */
+}
+
+h2 {
+	font-size: 35px;
 }
 
 .boxes {
-	display: flex;
-	background-color: lightgray;
+	text-align: left;
+	margin: 40px auto;
+	padding: 15px;
+	width: 40%;
+	background-color: #f1f1f1;
 	border: 1px solid black;
 }
 
@@ -184,10 +189,41 @@ p {
 
 .copyright {
 	text-align: center;
+	margin-top: 20px;
 
 }
 
 .services-header-img {
 	width: 100%;
 	margin: 3% auto;
+}
+
+.buttonmarg {
+	background-color: white;
+	margin-top: 15px;
+	padding: 6px 24px;
+	border-radius: 8px;
+}
+
+.facts {
+	display: flex;
+	text-align: left;
+	padding: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.facts-left, .facts-right {
+	width: 49%;
+}
+
+.b {
+	margin-left: 20px;
+	list-style-type: square;
+}
+
+.services-info-img {
+/*	float: right; */
+	padding-right: 0;
+
 }
